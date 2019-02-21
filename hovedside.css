@@ -60,8 +60,7 @@ footer {
 /* Styling for the navbar */
 .TopNav a {
     float: left;
-    display: inline-block;
-    list-style: none;
+    display: block;
     color: white;
     text-align: center;
     padding: 14px 16px;
@@ -85,6 +84,7 @@ footer {
 .TopNav .icon {
     display: none;
 }
+
 /*
     Folds the navbar into just having the left-most (1st) button  when screen is less than 600px wide.
     Also enables the "hamburger" icon which contains the new navbar in a on-click menu.
