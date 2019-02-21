@@ -89,6 +89,12 @@ footer {
 .topnav .icon {
     display: none;
 }
+
+#prosjekter {
+    text-align: center;
+    margin: auto;
+    width: 70%;
+}
 /*
     Folds the navbar into just having the left-most (1st) button  when screen is less than 600px wide.
     Also enables the "hamburger" icon which contains the new navbar in a on-click menu.
@@ -116,5 +122,11 @@ footer {
     }
     #hovedsidemindreskrift {
       display: none;
+    }
+}
+
+@media screen and (max-width: 600px) {
+   #prosjekt-hjemmeside img {
+        display: none;
     }
 }
