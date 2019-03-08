@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Nyseth</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Kontaktinformasjon">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+    <meta name="description" content="Obligatorisk Oppgave 3 i webtek!">
+    <link rel="stylesheet" type="text/css" media="screen" href="Obg3.css">
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="main.js"></script>
@@ -28,22 +28,39 @@
                 </a>
             </div>
         </header>
-        <section class="hovedinnhold">
-            <h1 id="tittelgreie">Kontakt</h1>
+        <div class="container">
+                <picture>
+                        <source media="(max-width: 420px)" srcset="img2/bilde-zoom.jpeg">
+                        <source media="(min-width: 421px) and (max-width: 799px)" srcset="img2/bilde-reduced-res.jpeg">
+                        <source media="(min-width: 800px)" srcset="img2/bilde.jpeg">
+                        <img src="img2/bilde.jpeg" alt="Cat">
+                </picture>
+                <div class="centered">
+                    <h1>Demonstrasjon av responsivt bilde.</h1>
+                    <p>
+                        Dette bildet endres seg ved redusering av vindusbredde.
+                        <br>
+                        Hele bildet vil alltid bli vist, slik at red reduserer seg selv i størrelse etterhvert vinduet blir minsket.
+                        <br><br>
+                        Denne teksten holder seg alltid i midten av bildet, det forsvinner også ved redusering.
+                    </p>
+                </div>
+        </div>
+            <!--<picture>
+                <source media="(max-width: 350px)" srcset="img2/bilde-zoom.jpeg">
+                <source media="(min-width: 351px) and (max-width: 799px)" srcset="img2/bilde-reduced-res.jpeg">
+                <source media="(min-width: 800px)" srcset="img2/bilde.jpeg">
+                <img src="img2/bilde.jpeg" alt="Cat">
+            </picture>-->
+        <footer class="footer-class">
+            <p> Pål Nyseth - 2019 </p>
             <p>
-                <em> Dersom du ønsker å kontakte meg, kan du gjøre det på følgende nettsteder: </em>
-            </p>
-            <p>
-                <p>
                     <a href="https://www.twitter.com/palnyseth"><img src="img/twitter.png" alt="Twitter" height="42" width="42"></a>
                     <a href="https://www.github.com/palnyseth"><img src="img/github.png" alt="Github" height="42" width="42"></a>
                     <a href="mailto:paalnyseth@gmail.com"><img src="img/mail.png" alt="Email" height="42" width="42"></a>
-                </p>
             </p>
-        </section>
-        <footer class="footer-class">
-            <p> Pål Nyseth - 2019 </p>
         </footer>
     </section>
 </body>
+
 </html>
