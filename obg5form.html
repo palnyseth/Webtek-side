@@ -21,6 +21,7 @@
             </ul>
         </header>
         <section class="hovedinnhold">
+            <!--Github støtter ikke POST-metoden, derfor er GET-metoden brukt i dens plass.-->
             <form name="form" action="thumbsup.html" onsubmit="return validateForm()" method="get">
                     <label for="name">Navn</label>
                     <input type="text" id="fame" name="name" placeholder="Skriv ditt navn. Ex. Pål Nyseth">
@@ -46,9 +47,7 @@
                     <textarea id="message" name="message" placeholder="Skriv her.." style="height:200px"></textarea>
 
                     <label for="message">
-                        Github støtter ikke POST-metoden som blir brukt til å submitte skjemaer, derfor vil du når du trykker på send knappen få en feilmelding.<br>
-                        Du kan få opp den mente destinasjonssiden ved å refreshe siden. (Mulig det må til et par refreshes).<br><br>
-                        Trykk på knappen til høyre for å kunne gå videre >>
+                        Trykk her >>>>>
                     </label>
                     <input type="checkbox" name="checkbox" value="check"/><br><br>
 
