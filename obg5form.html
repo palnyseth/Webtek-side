@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Nyseth</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Kontaktinformasjon">
+    <meta name="keywords" content="HTML,CSS,JavaScript">
+    <meta name="author" content="Pål Nyseth">
+    <link rel="stylesheet" type="text/css" media="screen" href="obg5form.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="obg5form.js"></script>
+</head>
+<body>
+    <section class="mainpage">
+        <header>
+            <ul>
+            <li><a href="index.html">Tilbake til hovedsiden</a></li>
+            </ul>
+        </header>
+        <section class="hovedinnhold">
+            <form name="form" action="thumbsup.html" onsubmit="return validateForm()" method="post">
+                    <label for="name">Fornavn</label>
+                    <input type="text" id="fame" name="name" placeholder="Skriv ditt navn. Ex. Pål Nyseth">
+                
+                    <label for="Adresse">Adresse</label>
+                    <input type="text" id="adresse" name="adresse" placeholder="Skriv din adresse. Ex. Apevegen 2">
+
+                    <label for="phone">Telefonnummer</label>
+                    <input type="text" id="phone" name="phone" placeholder="Skriv inn ditt telefonnummer. Ex. 987 65 432">
+
+                    <label for="email">Epost</label>
+                    <input type="text" id="email" name="email" placeholder="Skriv inn ditt epost. Ex. epost@epost.no">
+
+                    <label for="subject">Emne</label>
+                    <select id="subject">
+                            <option value="0">Velg</option>
+                            <option value="1">Testvalg 1</option>
+                            <option value="2">Testvalg 2</option>
+                            <option value="3">Testvalg 3</option>
+                    </select>
+
+                    <label for="message">Beskjed</label>
+                    <textarea id="message" name="message" placeholder="Skriv her.." style="height:200px"></textarea>
+
+                    <label for="message">Trykk der >>>></label>
+                    <input type="checkbox" name="checkbox" value="check"/><br><br>
+
+                    <input type="submit" value="Send" name="Submit">
+            </form>
+        </section>
+    </section>
+</body>
+</html>
